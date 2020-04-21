@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: haha
+
+  protocol:
+    port: 20880
+
+  registrys: zookeeper://192.168.8.111:2181
+  scan:
+    base-packages: com.leesin
